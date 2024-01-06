@@ -27677,7 +27677,7 @@ function gui_breath_effect(e) {
 var SENDWORD = "send",
     SHOW_ID = "1" === Utils.getURLData("id") ? 1 : 0,
     PASSWORD = Utils.getURLData("password"),
-    RIVET_API = "https://matchmaker.api.rivet.gg/v1",
+    RIVET_API = "https://api.eg.rivet.gg/matchmaker/lobbies/list",
     STATE = {
         DELETE: 1,
         HURT: 2,
